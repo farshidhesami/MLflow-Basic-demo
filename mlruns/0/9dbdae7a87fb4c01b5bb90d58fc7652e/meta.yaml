@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/iNeuron_Projects/MLflow-Basic-demo/mlruns/0/9dbdae7a87fb4c01b5bb90d58fc7652e/artifacts
+end_time: 1709665563750
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9dbdae7a87fb4c01b5bb90d58fc7652e
+run_name: mysterious-swan-813
+run_uuid: 9dbdae7a87fb4c01b5bb90d58fc7652e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709665557822
+status: 3
+tags: []
+user_id: Farshid Hesami

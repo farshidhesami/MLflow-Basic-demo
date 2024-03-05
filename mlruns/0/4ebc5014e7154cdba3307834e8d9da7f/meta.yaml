@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/iNeuron_Projects/MLflow-Basic-demo/mlruns/0/4ebc5014e7154cdba3307834e8d9da7f/artifacts
+end_time: 1709665607786
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ebc5014e7154cdba3307834e8d9da7f
+run_name: gregarious-slug-173
+run_uuid: 4ebc5014e7154cdba3307834e8d9da7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709665602066
+status: 3
+tags: []
+user_id: Farshid Hesami
