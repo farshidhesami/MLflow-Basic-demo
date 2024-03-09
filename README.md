@@ -35,4 +35,4 @@ Create a project folder  ( mlflow  project) and navigate to it :
     - R2: 0.10862644997792614
 
 13- for lunch a mlflow UI write in Git bash terminal "mlflow ui" and go to "http://
-    - image\Mlflow.jpg
+    - ![alt text](image.png)
