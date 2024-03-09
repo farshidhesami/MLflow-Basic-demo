@@ -38,9 +38,10 @@ if __name__ == "__main__":
         logger.exception(
             "Unable to download training & test CSV, check your internet connection. Error: %s", e
         )
+        sys.exit(1)  # Stop execution if CSV download fails
 
     # Split the data into training and test sets. (0.75, 0.25) split.
-    train, test = train_test_split(data)
+    train, test = train_test_split(data, test_size=0.25)  # Specify test size
 
     # The predicted column is "quality" which is a scalar from [3, 9]
     train_x = train.drop(["quality"], axis=1)
@@ -52,10 +53,13 @@ if __name__ == "__main__":
     l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.5
 
     with mlflow.start_run():
-        lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
-        lr.fit(train_x, train_y)
-
-        predicted_qualities = lr.predict(test_x)
+        try:  # Add exception handling for model fitting and prediction
+            lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
+            lr.fit(train_x, train_y)
+            predicted_qualities = lr.predict(test_x)
+        except Exception as e:
+            logger.exception("Error fitting model or making predictions. Error: %s", e)
+            sys.exit(1)
 
         (rmse, mae, r2) = eval_metrics(test_y, predicted_qualities)
 
