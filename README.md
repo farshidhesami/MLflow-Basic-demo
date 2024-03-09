@@ -35,5 +35,5 @@ Create a project folder  ( mlflow  project) and navigate to it :
     - R2: 0.10862644997792614
 
 13- for lunch a mlflow UI write in Git bash terminal "mlflow ui" and go to "http://
-    - image\Mlflow.jpg
+    - https://github.com/farshidhesami/MLflow-Basic-demo/blob/7586ae3622b27dcc86d73d87117b01032c5724ad/image/Mlflow.jpg
     
