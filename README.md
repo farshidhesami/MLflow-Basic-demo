@@ -53,10 +53,18 @@ Create a project folder  ( MLflow-Basic-demo ) and navigate to it :
       python script.py
     
     - Go to "example.py" and change the code : 
+    
       - Delete a "tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme" 
       - Add insted of add a code : remote_server_uri = "https://dagshub.com/farshidhesami/MLflow-Basic-demo.mlflow" for remote server.
       - Add a code : "tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme " for remote server. 
-      - 
+
+    - Export all credential into the Environment variable in **Git bash** terminal :
+
+      - export MLFLOW_TRACKING_URI=https://dagshub.com/farshidhesami/MLflow-Basic-demo.mlflow
+      - export MLFLOW_TRACKING_USERNAME=farshidhesami 
+      - export MLFLOW_TRACKING_PASSWORD=650aa1c0a81ee25d18a1e3cead472320dc4e6d71 
+
+
     - 
 
 - when we work with a team and we want to share a model with a team member, we can use a remote server or repository ,All the logs remote server or repository are
