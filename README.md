@@ -54,6 +54,26 @@ DAGsHub is used for enhancing collaboration among team members by providing a pl
 
 Based on the metrics provided for two different model versions, the tutorial guides you through evaluating model performance using common metrics such as MAE, R^2, and RMSE. This comparison highlights the importance of tracking and analyzing model performance over time to select the best version for production.
 
+## Based on the metrics provided for the two model versions from your MLflow experiment:
+
+-  Model Version 1: (Run ID: b6547a41020842e2addf7b005a81b9ff)
+  - MAE: 0.627
+  - R^2: 0.109
+  - RMSE: 0.793
+
+-  Model Version 2:  (Run ID: 33cb7f3eb1ec4c7fa991b21ef3efce0a)
+  - MAE: 0.644
+  - R^2: 0.071
+  - RMSE: 0.81
+
+- The lower: Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE),And the  higher  the R-squared (R^2) value, the better the model performance.
+
+## Comparing the two sets of metrics:
+
+- Model Version 1 has a  " lower MAE "  than Model Version 2 (0.627 compared to 0.644), which means that on average, Model Version 1's predictions are closer to the actual values.
+- Model Version 1 also has a " lower RMSE " than Model Version 2 (0.793 compared to 0.81), suggesting that the standard deviation of its prediction errors is smaller.
+- Model Version 1 has a " higher R^2 " value than Model Version 2 (0.109 compared to 0.071), indicating that it explains a higher proportion of the variance in the dependent variable.
+
 ## Conclusion
 
 This tutorial provides a comprehensive guide to getting started with MLflow for managing the lifecycle of a machine learning project, from setup to integration with collaboration tools like DAGsHub. Follow the steps outlined to train your linear regression model, track experiments, and analyze model performance effectively.
@@ -64,3 +84,5 @@ For more detailed instructions and additional resources, refer to the official [
 
 You can view the final model and its versions directly on DAGsHub at the following address:
 [View Models on DAGsHub](https://dagshub.com/farshidhesami/MLflow-Basic-demo.mlflow/#/models)
+
+[View My Page on DAGsHub](https://dagshub.com/farshidhesami/MLflow-Basic-demo)
