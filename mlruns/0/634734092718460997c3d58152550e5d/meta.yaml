@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/iNeuron_Projects/MLflow-Basic-demo/mlruns/0/634734092718460997c3d58152550e5d/artifacts
+end_time: 1710014934877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 634734092718460997c3d58152550e5d
+run_name: serious-mouse-272
+run_uuid: 634734092718460997c3d58152550e5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710014924967
+status: 3
+tags: []
+user_id: Farshid Hesami

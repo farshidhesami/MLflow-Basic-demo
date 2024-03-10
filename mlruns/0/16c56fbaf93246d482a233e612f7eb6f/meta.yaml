@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/iNeuron_Projects/MLflow-Basic-demo/mlruns/0/16c56fbaf93246d482a233e612f7eb6f/artifacts
+end_time: 1710014799094
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16c56fbaf93246d482a233e612f7eb6f
+run_name: caring-eel-408
+run_uuid: 16c56fbaf93246d482a233e612f7eb6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710014792072
+status: 3
+tags: []
+user_id: Farshid Hesami

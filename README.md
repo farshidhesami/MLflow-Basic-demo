@@ -35,4 +35,52 @@ Create a project folder  ( mlflow  project) and navigate to it :
     - R2: 0.10862644997792614
 
 13- for lunch a mlflow UI write in Git bash terminal "mlflow ui" and go to "http://
-    - ![alt text](image.png)
+    - image\Mlflow-01.png
+    
+
+## MLflow  tuturial  for run a model in remote server or repository :
+
+    - when we work with a team and we want to share a model with a team member, we can use a remote server or repository ,All the logs remote server or repository are
+      stored in the mlruns directory.
+
+    - there is a website "dagshub.com" where we can store a model and share with a team member.
+
+### Introduction to DAGsHub : 
+
+- Integrating DAGsHub with MLflow in machine learning projects leverages the strengths of both platforms, offering a comprehensive solution for managing the lifecycle of machine learning projects with enhanced collaboration features. Here's why combining DAGsHub with MLflow can be particularly beneficial:
+
+### Enhanced Collaboration and Version Control :
+
+- DAGsHub  focuses on facilitating collaboration in data science and machine learning projects. It provides a GitHub-like interface for data science, allowing users to manage projects, track issues, and collaborate on notebooks, datasets, and models.
+
+- MLflow , on the other hand, is designed for managing the machine learning lifecycle, including experimentation, model versioning, and deployment.
+
+- By using DAGsHub with MLflow, teams can effectively version control not only their code but also their data and models, making collaborative work more seamless and organized. DAGsHub enhances the collaboration aspect by providing a platform for sharing and discussing the work, while MLflow focuses on tracking the experiments, managing models, and streamlining the workflow.
+
+### Experiment Tracking and Visualization :
+
+- MLflow allows for detailed experiment tracking, including parameters, metrics, and artifacts. This helps in comparing experiments to find the most effective models.
+
+- DAGsHub integrates with MLflow to provide a visual interface for these experiments. 
+
+- This combination means you can easily track your experiments' progress and outcomes within a collaborative environment, enhancing both transparency and reproducibility.
+
+### Data and Model Versioning :
+
+- DAGsHub supports data versioning through DVC (Data Version Control), making it easier to handle large datasets and ensuring that every dataset version is tracked and reproducible.
+
+- When combined with MLflow's model versioning and experiment tracking, this creates a robust environment for managing all aspects of machine learning projects, from data preprocessing to model deployment. 
+
+- This integration ensures that every component of the project is version-controlled and easily accessible.
+
+### Streamlined Project Management : 
+
+- DAGsHub provides a central hub for project management, including issue tracking and documentation, tailored to data science workflows.
+- Integrating MLflow into this environment means that you can manage the entire lifecycle of a machine learning project in one place, from initial data analysis to deployment, with tools specifically designed for each stage of the process.
+
+### Community and Open Source
+
+- DAGsHub emphasizes open-source projects and community collaboration. By hosting your MLflow-tracked projects on DAGsHub, you can easily share your work with the community, receive feedback, and collaborate with others.
+- This open environment can lead to better quality projects, as community insights and contributions can help improve your models and approach.
+
+
