@@ -110,3 +110,30 @@ Create a project folder  ( MLflow-Basic-demo ) and navigate to it :
          - 2.  Transition to Production : Approved models are moved to production for real-world use, where they are continuously monitored for performance.
          - 3. Transition to Archived    : Outdated or superseded models are moved to an archived state for historical reference, removing them from active deployment
               considerations. 
+
+- Go to the terminal GitBash and write a " python example.py 0.5 0.6 " and see a version 02 of model in "dagshub" remote server.
+- Compare Version 01 and Version 02 in "dagshub" remote server.
+
+## Based on the metrics provided for the two model versions from your MLflow experiment:
+
+-  Model Version 1: (Run ID: b6547a41020842e2addf7b005a81b9ff)
+  - MAE: 0.627
+  - R^2: 0.109
+  - RMSE: 0.793
+
+-  Model Version 2:  (Run ID: 33cb7f3eb1ec4c7fa991b21ef3efce0a)
+  - MAE: 0.644
+  - R^2: 0.071
+  - RMSE: 0.81
+
+- Note : " The lower " Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE),And the  higher  the R-squared (R^2) value, the better the model performance.
+
+## Comparing the two sets of metrics:
+
+- Model Version 1 has a  " lower MAE "  than Model Version 2 (0.627 compared to 0.644), which means that on average, Model Version 1's predictions are closer to the actual values.
+- Model Version 1 also has a " lower RMSE " than Model Version 2 (0.793 compared to 0.81), suggesting that the standard deviation of its prediction errors is smaller.
+- Model Version 1 has a " higher R^2 " value than Model Version 2 (0.109 compared to 0.071), indicating that it explains a higher proportion of the variance in the dependent variable.
+
+- Given these metrics, " Model Version 1 " is performing better than Model Version 2 according to these three common measures of fit for regression models. 
+
+- It's important to note that both models have very low R^2 values, suggesting that neither model explains much of the variance in the dependent variable, and there might be room for improvement in the modeling process.
